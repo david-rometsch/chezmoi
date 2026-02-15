@@ -1,0 +1,2 @@
+# chezmoi
+share config
