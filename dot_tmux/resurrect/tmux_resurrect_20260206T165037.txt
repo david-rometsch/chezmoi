@@ -1,0 +1,24 @@
+pane	4	1	1	:*	0	arch	:/home/david	1	zsh	:
+pane	7	1	0	:	0	filetype-match-scratch (miniicons://3) - Nvim	:/home/david/25HS/1.\ Web Engineering Full Stack/fastapi	1	nvim	:
+pane	7	2	0	:	0	university_main.py (~/25HS/1. Web Engineering Full Stack/MVC_ORM_final_version/oop/final version) - Nvim	:/home/david/25HS/1.\ Web Engineering Full Stack/MVC_ORM_final_version/oop/final version	1	nvim	:
+pane	7	3	0	:	0	arch	:/home/david/25HS/1.\ Web Engineering Full Stack/mario-react/fastapi-react-next	0	1.	:
+pane	7	3	0	:	1	arch	:/home/david/25HS/1.\ Web Engineering Full Stack/mario-react/fastapi-react-next/frontend	1	npm	:
+pane	7	4	0	:-	0	main.py (~/25HS/1. Web Engineering Full Stack/mario-react/fastapi-react-next/backend) - Nvim	:/home/david/25HS/1.\ Web Engineering Full Stack/mario-react/fastapi-react-next/backend	1	nvim	:
+pane	7	5	1	:*	0	arch	:/home/david/.tmux/plugins/tmux-resurrect	1	zsh	:
+pane	8	1	1	:*	0	arch	:/home/david/.tmux/plugins/tmux-resurrect/scripts	1	zsh	:
+pane	fastapi	1	0	:	0	arch	:/home/david/.tmux	1	zsh	:
+pane	fastapi	2	0	:	0	arch	:/home/david/.tmux	1	zsh	:
+pane	fastapi	3	0	:-	0	arch	:/home/david/.tmux/plugins/tmux-resurrect	1	zsh	:
+pane	fastapi	4	1	:*	0	arch	:/home/david/.tmux/plugins/tmux-resurrect	1	zsh	:
+window	4	1	:zsh	1	:*	cabe,133x38,0,0,1	:
+window	7	1	:fastapi	0	:	cabf,133x38,0,0,2	off
+window	7	2	:orm	0	:	cac0,133x38,0,0,3	off
+window	7	3	:mario-run	0	:	3a96,133x38,0,0{66x38,0,0,4,66x38,67,0,11}	off
+window	7	4	:mario-code	0	:-	6591,133x38,0,0,12	off
+window	7	5	:zsh	1	:*	6592,133x38,0,0,13	:
+window	8	1	:zsh	1	:*	cac2,133x38,0,0,5	:
+window	fastapi	1	:fastapi-tutorial	0	:	cac3,133x38,0,0,6	off
+window	fastapi	2	:orm	0	:	cac4,133x38,0,0,7	off
+window	fastapi	3	:mario-example	0	:-	cac5,133x38,0,0,8	off
+window	fastapi	4	:zsh	1	:*	cac6,133x38,0,0,9	:
+state	7	8
