@@ -1,0 +1,18 @@
+return {
+  "epwalsh/obsidian.nvim",
+  dependencies = { "nvim-lua/plenary.nvim" },
+  opts = {
+    workspaces = {
+      {
+        name = "notes",
+        path = "~/obsidian-vault",
+      },
+    },
+    daily_notes = {
+      folder = "daily",
+    },
+    completion = {
+      nvim_cmp = true,
+    },
+  },
+}

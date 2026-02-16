@@ -1,0 +1,7 @@
+{
+  "davidsnip": {
+    "prefix": ["davidsnip", "template"],
+    "body": ["this is my first own python snippet!!"],
+    "description": "my snippet"
+  }
+}
