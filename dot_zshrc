@@ -194,3 +194,8 @@ alias kvim="NVIM_APPNAME=nvim-kickstart nvim"
 
 alias i3c="NVIM_APPNAME=nvim-astro nvim ~/.config/i3/config"
 
+alias vs="cd ~/26F/vs"
+alias game="cd ~/26F/game"
+alias data-science="cd ~/26F/data-science"
+alias mobile="cd ~/26F/mobile"
+alias vs="cd ~/.config/nvim-astro/"
