@@ -21,12 +21,16 @@ font pango:JetBrainsMono Nerd Font 10
 # us und de keyboard
 exec_always --no-startup-id setxkbmap -layout "us,ch" -variant ",de" -option "grp:shifts_toggle"
 
+exec --no-startup-id setxkbmap -option caps:swapescape
 
 #==== autostart ====#
 exec --no-startup-id flameshot
-exec --no-startup-id feh --bg-fill /home/david/Pictures/arch-linux-1920-x-1080-wallpaper-xw0szpochzcu0gml.jpg
+# exec --no-startup-id feh --bg-fill /home/david/Pictures/arch-linux-1920-x-1080-wallpaper-xw0szpochzcu0gml.jpg
+exec --no-startup-id feh --bg-max /home/david/Wallpapers/solutions-developer.png
 exec --no-startup-id nm-applet --indicator 
 exec --no-startup-id kdeconnectd     # fuer mobile sync
+exec --no-startup-id setxkbmap -option caps:swapescape
+exec --no-startup-id picom
 
 # ==== autostart on fixed ws ====#
 exec --no-startup-id "i3-msg 'workspace 10; exec brave --app-id=agimnkijcaahngcdmfeangaknmldooml'" # youtube
@@ -39,7 +43,7 @@ exec --no-startup-id sleep 2 && i3-msg workspace 1
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
 
-# The combination of xss-lock, nm-applet and pactl is a popular choice, so
+# The combination of x  ss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
