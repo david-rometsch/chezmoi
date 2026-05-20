@@ -18,7 +18,10 @@ font pango:monospace 12
 font pango:JetBrainsMono Nerd Font 10   
 
 #==== always exec autostart ====#
-exec_always --no-startup-id setxkbmap -layout "us,ch" -variant ",de" -option "grp:shifts_toggle" -option "caps:swapescape"
+# us und de keyboard
+exec_always --no-startup-id setxkbmap -layout "us,ch" -variant ",de" -option "grp:shifts_toggle"
+
+exec --no-startup-id setxkbmap -option caps:swapescape
 
 #==== autostart ====#
 exec --no-startup-id flameshot
