@@ -112,6 +112,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+#
+# Environment variables
+export LIBVIRT_DEFAULT_URI="qemu:///system"
 
 export PATH="$HOME/.local/bin:$PATH"
 
@@ -198,4 +201,4 @@ alias vs="cd ~/26F/vs"
 alias game="cd ~/26F/game"
 alias data-science="cd ~/26F/data-science"
 alias mobile="cd ~/26F/mobile"
-alias vs="cd ~/26F/vs/"
+alias vimc="cd ~/.config/nvim-astro/"
