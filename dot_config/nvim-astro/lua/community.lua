@@ -7,5 +7,6 @@ return {
   -- import/override with your plugins folder
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.typst" },
   { import = "astrocommunity.pack.python" },
 }
