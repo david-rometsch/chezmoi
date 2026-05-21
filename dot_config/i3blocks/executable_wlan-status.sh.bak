@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+# Catppuccin Farben (Hex)
+RED="#f28fad"
+YELLOW="#f9e2af"
+GREEN="#abe9b3"
+
+HW=$(rfkill list wlan | grep "Hard blocked" | awk '{print $3}')
+SW=$(nmcli -t -f WIFI g)
+
+if [ "$HW" = "yes" ]; then
+    icon="睊"   # gesperrtes WLAN Icon (Nerd Font)
+    echo "<span color='$RED'>$icon WLAN (Fn OFF)</span>"
+elif [ "$SW" = "disabled" ]; then
+    icon="直"   # WLAN aus Icon
+    echo "<span color='$YELLOW'>$icon 🔴 WLAN (off)</span>"
+else
+    SSID=$(nmcli -t -f ACTIVE,SSID dev wifi | grep '^yes' | cut -d: -f2)
+    icon="直"   # WLAN verbunden Icon
+    echo "<span color='$GREEN'>$icon WLAN $SSID</span>"
+fi
+
