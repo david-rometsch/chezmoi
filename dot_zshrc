@@ -191,7 +191,7 @@ alias pac="pacman -Qeq | grep -vE 'xorg-|mesa|xf86|libgl|font|linux|kernel|firmw
 
 
 # vim aliases
-alias vim="NVIM_APPNAME=nvim-astro nvim"
+alias vim="nvim"
 alias lvim="NVIM_APPNAME=nvim-lazy nvim"
 alias kvim="NVIM_APPNAME=nvim-kickstart nvim"
 
@@ -201,4 +201,4 @@ alias vs="cd ~/26F/vs"
 alias game="cd ~/26F/game"
 alias data-science="cd ~/26F/data-science"
 alias mobile="cd ~/26F/mobile"
-alias vimc="cd ~/.config/nvim-astro/"
+alias vimc="cd ~/.config/nvim/"
