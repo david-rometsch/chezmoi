@@ -195,7 +195,7 @@ alias vim="nvim"
 alias lvim="NVIM_APPNAME=nvim-lazy nvim"
 alias kvim="NVIM_APPNAME=nvim-kickstart nvim"
 
-alias i3c="NVIM_APPNAME=nvim-astro nvim ~/.config/i3/config"
+alias i3c="nvim ~/.config/i3/config"
 
 alias vs="cd ~/26F/vs"
 alias game="cd ~/26F/game"
