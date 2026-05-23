@@ -32,6 +32,7 @@ return {
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
 
+
   -- Workflow
   { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.motion.nvim-surround" },
@@ -42,10 +43,12 @@ return {
   { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.pack.chezmoi" },
   { import = "astrocommunity.editing-support.auto-save-nvim" },
-  { import = "astrocommunity.media.image-nvim" },
+  -- { import = "astrocommunity.media.image-nvim" },
+  { import = "astrocommunity.file-explorer.yazi-nvim" },
+  { import = "astrocommunity.file-explorer.oil-nvim" },
 
   -- ================= ALL IMPORTS 21.5.26: =================
-  --
+  -- { import = "astrocommunity.fuzzy-finder.fzf-lua" },
   -- { import = "astrocommunity.fuzzy-finder.telescope-nvim" },
   -- { import = "astrocommunity.pack.lua" },
   -- { import = "astrocommunity.ai.avante-nvim" },
@@ -229,10 +232,7 @@ return {
   -- { import = "astrocommunity.editing-support.zen-mode-nvim" },
   -- { import = "astrocommunity.file-explorer.fyler-nvim" },
   -- { import = "astrocommunity.file-explorer.mini-files" },
-  -- { import = "astrocommunity.file-explorer.oil-nvim" },
   -- { import = "astrocommunity.file-explorer.telescope-file-browser-nvim" },
-  -- { import = "astrocommunity.file-explorer.yazi-nvim" },
-  -- { import = "astrocommunity.fuzzy-finder.fzf-lua" },
   -- { import = "astrocommunity.fuzzy-finder.namu-nvim" },
   -- { import = "astrocommunity.fuzzy-finder.snacks-picker" },
   -- { import = "astrocommunity.fuzzy-finder.telescope-zoxide" },
@@ -318,7 +318,6 @@ return {
   -- { import = "astrocommunity.neovim-lua-development.lua-console-nvim" },
   -- { import = "astrocommunity.note-taking.global-note-nvim" },
   -- { import = "astrocommunity.note-taking.neorg" },
-  -- { import = "astrocommunity.note-taking.obsidian-nvim" },
   -- { import = "astrocommunity.note-taking.venn-nvim" },
   -- { import = "astrocommunity.note-taking.zk-nvim" },
   -- { import = "astrocommunity.pack.angular" },
