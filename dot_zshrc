@@ -203,7 +203,7 @@ alias i3c="nvim ~/.config/i3/config"
 
 alias vs="cd ~/26F/vs"
 alias game="cd ~/26F/game"
-alias data-science="cd ~/26F/data-science"
+alias ds="cd ~/26F/data-science"
 alias mobile="cd ~/26F/mobile"
 alias vimc="cd ~/.config/nvim/ && nvim"
 alias dev="cd ~/develop/"
