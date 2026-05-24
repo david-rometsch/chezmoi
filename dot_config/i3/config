@@ -31,7 +31,7 @@ exec --no-startup-id setxkbmap -option caps:swapescape
 exec --no-startup-id picom
 
 # ==== autostart on fixed ws ====#
-exec --no-startup-id "i3-msg 'workspace 10; exec brave --app-id=agimnkijcaahngcdmfeangaknmldooml'" # youtube
+# exec --no-startup-id "i3-msg 'workspace 10; exec brave --app-id=agimnkijcaahngcdmfeangaknmldooml'" # youtube
 exec --no-startup-id "i3-msg 'workspace 10; exec brave --app-id=jfhfngdnpbggfklaannbanmckjaahfmp'"  # syncthing
 exec --no-startup-id sleep 1 && i3-msg '[class="Brave-browser" instance="crx_jfhfngdnpbggfklaannbanmckjaahfmp"] focus; move container to workspace number 9'
 exec --no-startup-id sleep 2 && i3-msg workspace 1
@@ -51,7 +51,8 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 #==== my Keybindings ====#
 bindsym $mod+Control+y exec --no-startup-id systemctl suspend
 bindsym $mod+i exec brave
-bindsym $mod+o exec nautilus
+bindsym $mod+Shift+o exec nautilus
+bindsym $mod+o exec --no-startup-id "/usr/bin/ghostty -e yazi"
 bindsym $mod+m exec thunderbird
 bindsym $mod+z exec --no-startup-id firejail --net=none --nodbus brave --app-id=dnfpoenibinnbbckgbhendmlljoobcfg  # excalidraw
 bindsym $mod+Shift+z exec --no-startup-id brave --app-id=dnfpoenibinnbbckgbhendmlljoobcfg  # excalidraw
@@ -62,7 +63,6 @@ bindsym $mod+u exec --no-startup-id chromium --app-id=eppojlglocelodeimnohnlnion
 bindsym $mod+y exec --no-startup-id synco.sh       # syncthing inkl wlanhostpot!
 bindsym $mod+Shift+y exec --no-startup-id woff.sh      # syncthing bzw wlan beenden
 bindsym $mod+x exec --no-startup-id gtk-launch obsidian  # seit neuerer version geht direkt obsidian nicht mehr. 
-bindsym $mod+Shift+o exec --no-startup-id ghostty -e yazi  # yazi 
 # bindsym $mod+g exec --no-startup-id gnietheret run # reverse thetering
 bindsym $mod+Shift+f exec --no-startup-id firebrave.sh
 bindsym $mod+Sift+a exec --no-startup-id anki
