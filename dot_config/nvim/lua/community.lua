@@ -13,7 +13,6 @@ return {
   --
   -- claude recommandations
   -- Languages
-  { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.cs" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.svelte" },
@@ -23,6 +22,11 @@ return {
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.dart" },
   { import = "astrocommunity.pack.typst" },
+  { import = "astrocommunity.editing-support.conform-nvim" },
+  { import = "astrocommunity.pack.python.basedpyright" },
+  { import = "astrocommunity.search.nvim-spectre" },
+  { import = "astrocommunity.editing-support.refactoring-nvim" },
+  -- { import = "astrocommunity.lsp.inc-rename-nvim" },
 
   -- Python spezifisch (pandas/fastapi)
   { import = "astrocommunity.pack.python.ruff" }, -- linting/formatting
@@ -48,6 +52,7 @@ return {
   { import = "astrocommunity.file-explorer.oil-nvim" },
 
   -- ================= ALL IMPORTS 21.5.26: =================
+  -- { import = "astrocommunity.pack.python" },
   -- { import = "astrocommunity.fuzzy-finder.fzf-lua" },
   -- { import = "astrocommunity.fuzzy-finder.telescope-nvim" },
   -- { import = "astrocommunity.pack.lua" },
@@ -186,7 +191,6 @@ return {
   -- { import = "astrocommunity.editing-support.bigfile-nvim" },
   -- { import = "astrocommunity.editing-support.cloak-nvim" },
   -- { import = "astrocommunity.editing-support.comment-box-nvim" },
-  -- { import = "astrocommunity.editing-support.conform-nvim" },
   -- { import = "astrocommunity.editing-support.cutlass-nvim" },
   -- { import = "astrocommunity.editing-support.dial-nvim" },
   -- { import = "astrocommunity.editing-support.hypersonic-nvim" },
@@ -211,7 +215,6 @@ return {
   -- { import = "astrocommunity.editing-support.parpar-nvim" },
   -- { import = "astrocommunity.editing-support.quick-scope" },
   -- { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
-  -- { import = "astrocommunity.editing-support.refactoring-nvim" },
   -- { import = "astrocommunity.editing-support.rustowl" },
   -- { import = "astrocommunity.editing-support.stickybuf-nvim" },
   -- { import = "astrocommunity.editing-support.suda-vim" },
@@ -265,7 +268,6 @@ return {
   -- { import = "astrocommunity.lsp.delimited-nvim" },
   -- { import = "astrocommunity.lsp.dev-tools-nvim" },
   -- { import = "astrocommunity.lsp.garbage-day-nvim" },
-  -- { import = "astrocommunity.lsp.inc-rename-nvim" },
   -- { import = "astrocommunity.lsp.lsp-inlayhints-nvim" },
   -- { import = "astrocommunity.lsp.lsp-lens-nvim" },
   -- { import = "astrocommunity.lsp.lsp-signature-nvim" },
@@ -380,7 +382,6 @@ return {
   -- { import = "astrocommunity.pack.proto" },
   -- { import = "astrocommunity.pack.ps1" },
   -- { import = "astrocommunity.pack.purescript" },
-  -- { import = "astrocommunity.pack.python.basedpyright" },
   -- { import = "astrocommunity.pack.python.black" },
   -- { import = "astrocommunity.pack.python" },
   -- { import = "astrocommunity.pack.python.isort" },
@@ -460,7 +461,6 @@ return {
   -- { import = "astrocommunity.scrolling.vim-smoothie" },
   -- { import = "astrocommunity.search.grug-far-nvim" },
   -- { import = "astrocommunity.search.nvim-hlslens" },
-  -- { import = "astrocommunity.search.nvim-spectre" },
   -- { import = "astrocommunity.search.sad-nvim" },
   -- { import = "astrocommunity.session.vim-workspace" },
   -- { import = "astrocommunity.snippet.mini-snippets" },
